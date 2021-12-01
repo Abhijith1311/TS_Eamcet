@@ -8,12 +8,12 @@ gender=st.radio('Select The Gender',('M','F'))
 rank=st
 rank=st.number_input('Enter Your Rank')
 caste=st.radio('Select The caste',('OC','BC_B'))
-branch_code=st.radio('Select your Required branch',('CSE','IT'))
+branch_code=st.radio('Select your Required branch',('CSE','INF','ECE'))
 
 
 if branch_code=='None':
 	val=df[df['rank']>=rank]
-	val_x=val[val['gender']==gender]
+	val_x=val[val['gender']==gender]N
 	val_y=val_x[val_x['caste']==caste]
 		
 	temp=val_y
