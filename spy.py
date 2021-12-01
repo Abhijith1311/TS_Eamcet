@@ -13,7 +13,7 @@ branch_code=st.radio('Select your Required branch',('CSE','INF','ECE'))
 
 if branch_code=='None':
 	val=df[df['rank']>=rank]
-	val_x=val[val['gender']==gender]N
+	val_x=val[val['gender']==gender]
 	val_y=val_x[val_x['caste']==caste]
 		
 	temp=val_y
