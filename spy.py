@@ -7,7 +7,7 @@ df.head()
 gender=st.radio('Select The Gender',('M','F'))
 rank=st
 rank=st.number_input('Enter Your Rank')
-caste=st.radio('Select The caste',('OC','BC_B'))
+caste=st.radio('Select The caste',('OC','BC_B','BC_D','BC_A','BC_C'))
 branch_code=st.radio('Select your Required branch',('CSE','INF','ECE'))
 
 
