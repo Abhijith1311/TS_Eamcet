@@ -27,4 +27,4 @@ else:
 y=temp.sort_values(by='rank', ascending = True)
 z=y.drop_duplicates(subset = ["college","branch_code"],keep='last')
 z.sort_values(by=['rank'],inplace=True)
-st.write(z.head())
+st.write(z.head(15))
